@@ -80,7 +80,7 @@ Launching TraceTunnel: 192.168.7.1 (192.168.7.1)
 * **QTTL**: TTL of the probe when the Time-Exceeded reply was sent. Retrieved in the quotation of the IP packet that triggered the Time-Exceeded reply
 * **UTURN**: Value of the UTURN indicator. Used to detect MPLS tunnels.
 * **META**: Describes the evolution of the three triggers/indicators between two hops.
-* **MPLS**: MPLS header quoted in the Time-Exceeded reply. See RFC 4950 (https://tools.ietf.org/html/rfc4950)
+* **MPLS**: MPLS header quoted in the Time-Exceeded reply. See [RFC 4950](https://tools.ietf.org/html/rfc4950)
 * **ERROR**: Errors encountered (Ping timeout, UDP timeout, and so on)
 
 ## Files
