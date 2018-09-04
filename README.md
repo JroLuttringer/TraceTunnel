@@ -9,12 +9,16 @@ By default, TraceTunnel uses UDP probe. If left unanswered, an ICMP probe is the
 ## Prerequisites
 * Python 3 and up
 * Scapy
+
 ```
 sudo apt-get install python3
 pip3 install scapy
 ```
+
 ## Installing
+
 Once the Prerequisites are installed, clone the git repo
+
 ```
 git clone https://git.unistra.fr/jrluttringer/TraceTunnel.git
 ```
