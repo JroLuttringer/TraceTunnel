@@ -53,7 +53,7 @@ def extract_mpls(bytes):
         bytes = bytes[-30:]
         i = 0
         for b in bytes:
-            if bytes[i] == 0 and bytes[i+1] > 8 and bytes[i+2] == 1 and bytes[i+3] == 1:
+            if bytes[i] == 0 and bytes[i+1] >= 8 and bytes[i+2] == 1 and bytes[i+3] == 1:
                 number_of_headers = int((bytes[i+1] - 4) / 4)
                 for x in range(0, number_of_headers):
                     bytes_mpls = bytes[i+x*4+4: i+ x*4 + 8]
